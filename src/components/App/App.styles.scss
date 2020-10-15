@@ -1,11 +1,38 @@
 @import "src/assets/scss/variables.scss";
 
-body {
-  background-color: $neutral-0-color;
+html,
+body,
+#root,
+.app-wrapper {
+  height: 100%;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
 .area-1 {
-  display: block;
-  width: auto;
   height: 40px;
+  background-color: $primary-color;
+}
+
+.area-2 {
+  flex-grow: 1;
+  background-color: $neutral-0-color;
+}
+
+.area-2-a {
+  height: 50%;
+  background-color: $primary-dark;
+}
+
+.area-2-b {
+  height: 50%;
+  background-color: $primary-color;
+}
+
+.area-3 {
+  height: 40px;
+  background-color: $primary-dark;
 }
