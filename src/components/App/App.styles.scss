@@ -25,6 +25,11 @@ body,
 .area-2-a {
   height: 50%;
   background-color: $primary-dark;
+
+  .scarecrow-image {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 .area-2-b {
