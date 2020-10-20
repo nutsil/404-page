@@ -5,14 +5,14 @@ import "./App.styles.scss";
 export function App() {
   return (
     <div className="app-wrapper">
-      <div className="header">
+      <header className="header">
         <TitlePage />
-      </div>
-      <div className="area-2">
+      </header>
+      <main className="area-2">
         <div className="area-2-a"></div>
         <div className="area-2-b"></div>
-      </div>
-      <div className="area-3"></div>
+      </main>
+      <footer className="area-3"></footer>
     </div>
   );
 }
