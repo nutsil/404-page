@@ -1,5 +1,6 @@
 import React from "react";
 import { TitlePage } from "../TitlePage/TitlePage.component";
+import { ContentBody } from "../ContentBody/ContentBody.component";
 import "./App.styles.scss";
 import ScareCrow from "../../assets/images/Scarecrow.png";
 
@@ -9,6 +10,7 @@ export function App() {
       <header className="header">
         <TitlePage />
       </header>
+      {/* Remover name of classes for something more meaningful */}
       <main className="area-2">
         <div className="area-2-a">
           <img
@@ -19,7 +21,9 @@ export function App() {
             className="scarecrow-image"
           />
         </div>
-        <div className="area-2-b"></div>
+        <div className="area-2-b">
+          <ContentBody />
+        </div>
       </main>
       <footer className="area-3"></footer>
     </div>

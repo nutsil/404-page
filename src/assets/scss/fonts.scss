@@ -1,3 +1,7 @@
 @mixin title-font {
   font-family: "Inconsolata", monospace;
 }
+
+@mixin content-font {
+  font-family: "Space Mono", monospace;
+}
