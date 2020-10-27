@@ -10,7 +10,6 @@ export function App() {
       <header className="header">
         <TitlePage />
       </header>
-      {/* Remover name of classes for something more meaningful */}
       <main className="area-2">
         <div className="area-2-a">
           <img
