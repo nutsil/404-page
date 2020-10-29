@@ -1,1 +1,14 @@
 @import "src/assets/scss/variables.scss";
+
+.go-back-button {
+  width: 216px;
+  height: 68px;
+  background-color: $neutral-3-color;
+  color: $base-color;
+  @include content-font;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin: 0 0 0 24px;
+}
