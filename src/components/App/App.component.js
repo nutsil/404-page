@@ -3,6 +3,7 @@ import { TitlePage } from "../TitlePage/TitlePage.component";
 import { ContentBody } from "../ContentBody/ContentBody.component";
 import "./App.styles.scss";
 import ScareCrow from "../../assets/images/Scarecrow.png";
+import { Button } from "../Button/Button.component";
 
 export function App() {
   return (
@@ -22,6 +23,7 @@ export function App() {
         </div>
         <div className="area-2-b">
           <ContentBody />
+          <Button />
         </div>
       </main>
       <footer className="area-3"></footer>
