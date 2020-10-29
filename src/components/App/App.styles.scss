@@ -1,13 +1,16 @@
 @import "src/assets/scss/variables.scss";
 
-html,
-body,
-#root,
-.app-wrapper {
-  height: 100%;
-}
+// 1 posible solucion, pero trae problemas, el problema es que si tu contenido excede el alto no hay scroll
+// html,
+// body,
+// #root,
+// .app-wrapper {
+//   height: 100%;
+// }
+// END 1 posible solucion
 
 .app-wrapper {
+  min-height: 100vh; // vh stands for Viewport Height
   display: flex;
   flex-direction: column;
 }
@@ -23,8 +26,8 @@ body,
 }
 
 .area-2-a {
-  height: 50%;
   background-color: $primary-dark;
+  padding: 60px 0;
 
   .scarecrow-image {
     display: block;
@@ -33,7 +36,6 @@ body,
 }
 
 .area-2-b {
-  height: 60%;
   background-color: $primary-color;
 }
 
