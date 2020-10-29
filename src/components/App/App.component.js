@@ -3,6 +3,7 @@ import { TitlePage } from "../TitlePage/TitlePage.component";
 import { ContentBody } from "../ContentBody/ContentBody.component";
 import "./App.styles.scss";
 import ScareCrow from "../../assets/images/Scarecrow.png";
+import { Copyright } from "../Copyright/Copyright.component";
 
 export function App() {
   return (
@@ -24,7 +25,9 @@ export function App() {
           <ContentBody />
         </div>
       </main>
-      <footer className="area-3"></footer>
+      <footer className="area-3">
+        <Copyright />
+      </footer>
     </div>
   );
 }
