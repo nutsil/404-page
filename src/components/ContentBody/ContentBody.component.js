@@ -1,5 +1,6 @@
 import React from "react";
 import "./ContentBody.styles.scss";
+import { Button } from "../Button/Button.component";
 
 export function ContentBody() {
   return (
@@ -9,6 +10,7 @@ export function ContentBody() {
         The page you are looking for might be removed or is temporarily
         unavailable
       </p>
+      <Button />
     </div>
   );
 }
