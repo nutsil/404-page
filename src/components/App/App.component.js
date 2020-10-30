@@ -2,6 +2,7 @@ import React from "react";
 import { TitlePage } from "../TitlePage/TitlePage.component";
 import { ContentBody } from "../ContentBody/ContentBody.component";
 import "./App.styles.scss";
+import { Copyright } from "../Copyright/Copyright.component";
 import ScareCrow from "../../assets/images/scarecrow.png";
 
 export function App() {
@@ -28,7 +29,9 @@ export function App() {
           />
         </div>
       </main>
-      <footer className="main-footer"></footer>
+      <footer className="main-footer">
+        <Copyright />
+      </footer>
     </div>
   );
 }
