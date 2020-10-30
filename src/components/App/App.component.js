@@ -2,7 +2,7 @@ import React from "react";
 import { TitlePage } from "../TitlePage/TitlePage.component";
 import { ContentBody } from "../ContentBody/ContentBody.component";
 import "./App.styles.scss";
-import ScareCrow from "../../assets/images/Scarecrow.png";
+import ScareCrow from "../../assets/images/scarecrow.png";
 
 export function App() {
   return (
@@ -10,9 +10,8 @@ export function App() {
       <header className="header">
         <TitlePage title="404 NOT FOUND" />
       </header>
-      {/* FIXME: cambiar nombres de clases, hacerlas mas descriptivas */}
-      <main className="area-2">
-        <div className="area-2-a">
+      <main className="main-body">
+        <div className="main-image">
           <img
             src={ScareCrow}
             alt="scarecrow"
@@ -21,7 +20,7 @@ export function App() {
             className="scarecrow-image"
           />
         </div>
-        <div className="area-2-b">
+        <div className="main-content">
           <ContentBody
             title="I have bad news for you"
             contentBody="The page you are looking for might be removed or is temporarily
@@ -29,7 +28,7 @@ export function App() {
           />
         </div>
       </main>
-      <footer className="area-3"></footer>
+      <footer className="main-footer"></footer>
     </div>
   );
 }
